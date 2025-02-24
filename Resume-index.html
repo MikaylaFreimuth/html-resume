@@ -6,73 +6,300 @@
     <meta name="description" content="Resume of Hannah Montana, pop star and actress, showcasing her skills, education, and experience.">
     <meta name="author" content="Hannah Montana">
     <title>Hannah Montana - Resume</title>
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+       
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif, sans-serif;
+            background-color: whitesmoke;
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+            padding: 20px;
+            margin: 0;
+            letter-spacing: 0.5px;
+            word-spacing: 2px;
+        }
+
+        
+        h1, h2, h3 {
+            font-family: 'DM Serif Display', serif;
+            font-weight: 400;
+        }
+
+        
+        h2 {
+            font-style: italic;
+        }
+
+       d
+        .dm-serif-display-regular {
+            font-family: "DM Serif Display", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: rgba(200, 200, 200, 0.9); 
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: black;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: black;
+        }
+
+        #image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #image img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+       
+        h2::first-letter {
+            font-size: 3.5rem;
+            color: #800080; 
+        }
+
+        h2::first-line {
+            font-weight: bold;
+            color: rgba(0, 0, 0, 0.8);
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 8px;
+            color: #444;
+        }
+
+        section {
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+        }
+
+        section ul {
+            padding-left: 0;
+            margin-left: 0;
+            list-style-type: none;
+        }
+
+       
+        #experience ul li::before,
+        #skills ul li::before,
+        #portfolio ul li::before {
+            content: '\2022'; 
+            color: black; 
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        #skills ul li::before {
+            content: '\2605'; 
+            color: black; 
+        }
+
+        #portfolio ul li::before {
+            content: '\2713'; 
+            color: black; 
+        }
+
+        
+        #education ul li::before {
+            content: '\2192';
+            color: #333; 
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        
+        #technical-skills ul li::before {
+            content: '\2023'; 
+            color: #444; 
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        a {
+            color: #008CBA;
+            text-decoration: none;
+        }
+
+        a:link {
+            color: #008CBA;
+        }
+
+        a:visited {
+            color: rgba(128, 0, 128, 0.8); 
+        }
+
+        a:hover, a:focus {
+            color: #ff6347;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #ff1493;
+        }
+
+        
+        #portfolio {
+            position: relative;
+            margin-bottom: 30px;
+            padding: 20px;
+            color: black;
+        }
+
+        
+        #portfolio h2 {
+            background-image: url(https://th.bing.com/th/id/OIP.tQcDZFy1yNmLUesVPvN2rQHaD3?w=313&h=180&c=7&r=0&o=5&dpr=2&pid=1.7);  
+            background-size: cover;
+            background-position: center;
+            padding: 1px;
+            color: whitesmoke; 
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        
+        #portfolio ul li::before {
+            content: '\2713'; 
+            color: black; 
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+            #image img {
+                width: 100%;
+                height: auto;
+            }
+
+            section {
+                margin-bottom: 20px;
+            }
+
+            section ul li {
+                font-size: 1rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Hannah Montana</h1>
-        <p>Email: <a href="mailto:hannahmontana@gmail.com" target="_blank">hannahmontana@gmail.com</a> | Phone: (310) 000-000 | Malibu, California </p>
-        
+        <p>Email: <a href="mailto:hannahmontana@gmail.com">hannahmontana@gmail.com</a> | Phone: (310) 000-000 | Malibu, California</p>
     </header>
 
-   <section id="image">
-    <img src="https://th.bing.com/th/id/R.d6cfd56aae65b315f6f9629a29ee82ca?rik=62VWHFJ9JdwpIg&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f8400000%2fHannah-Montana-Season-1-Promotional-Photos-HQ-3-miley-cyrus-8420171-1365-2048.jpg&ehk=JN%2ffP%2bwZUW7v0Kc67nEU5xdrea%2fWldt%2bekFPraFfS54%3d&risl=&pid=ImgRaw&r=0" alt="Hannah Montana promotional photo" width="400" height="500" />
-</section>
- <section id="education">
-    <h2>Education</h2>
-    <h3>Heritage High School: 2008-2010</h3>
-    <ul>
-        <li>Overall GPA: 3.0</li>
-        <li>Advanced Diploma</li>
-        <li>Achievements: Musical Theatre Lead 2009-2010</li>
-    </ul>
-</section>
+    <section id="image">
+        <img src="https://th.bing.com/th/id/R.d6cfd56aae65b315f6f9629a29ee82ca?rik=62VWHFJ9JdwpIg&riu=http%3a%2f%2fimages2.fanpop.com%2fimages%2fphotos%2f8400000%2fHannah-Montana-Season-1-Promotional-Photos-HQ-3-miley-cyrus-8420171-1365-2048.jpg&ehk=JN%2ffP%2bwZUW7v0Kc67nEU5xdrea%2fWldt%2bekFPraFfS54%3d&risl=&pid=ImgRaw&r=0" alt="Hannah Montana promotional photo" />
+    </section>
 
-<section id="experience">
-    <h2>Experience</h2>
-    <h3>Pop Star &amp; Actress - "Hannah Montana"</h3>
-    <ul>
-        <li><strong>Disney Channel</strong>: 2006-2011</li>
-        <li>Starred in the popular TV series "Hannah Montana," portraying a dual identity as a regular teenager and a famous pop star.</li>
-        <li>Performed on world tours, including hit singles like "The Best of Both Worlds" and "Nobody's Perfect."</li>
-    </ul>
+    <section id="education">
+        <h2>Education</h2>
+        <h3>Heritage High School: 2008-2010</h3>
+        <ul class="dm-serif-display-regular">
+            <li>Overall GPA: 3.0</li>
+            <li>Advanced Diploma</li>
+            <li>Achievements: Musical Theatre Lead 2009-2010</li>
+        </ul>
+    </section>
 
-    <h3>Recording Artist</h3>
-    <ul>
-        <li><strong>Hollywood Records</strong>: 2006-Present</li>
-        <li>Released multiple albums, received recognition and top chart hits.</li>
-        <li>Grammy-nominated artist with millions of records sold worldwide.</li>
-        <li>Performed top hit songs at sold out concerts all over the world. </li>
-    </ul>
-</section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Pop Star &amp; Actress - "Hannah Montana"</h3>
+        <ul class="dm-serif-display-regular">
+            <li><strong>Disney Channel</strong>: 2006-2011</li>
+            <li>Starred in the popular TV series "Hannah Montana," portraying a dual identity as a regular teenager and a famous pop star.</li>
+            <li>Performed on world tours, including hit singles like "The Best of Both Worlds" and "Nobody's Perfect."</li>
+        </ul>
 
-<section id="portfolio">
-    <h2>Work &amp; Portfolio</h2>
-    <ul>
-        <li>To view my music soundtrack <a href="https://www.youtube.com/playlist?list=PLv7cJkqEsmHEZ1NBQHflWwh4WwLFxgCxD" target="_blank">click here</a></li>
-        <li>To view my acting performances <a href="https://disneynow.com/show/87a723a4-7f8d-4260-b782-c943c3f7b510" target="_blank">click here</a> for exclusive videos and performances.</li>
-    </ul>
-</section>
+        <h3>Recording Artist</h3>
+        <ul class="dm-serif-display-regular">
+            <li><strong>Hollywood Records</strong>: 2006-Present</li>
+            <li>Released multiple albums, received recognition and top chart hits.</li>
+            <li>Grammy-nominated artist with millions of records sold worldwide.</li>
+            <li>Performed top hit songs at sold-out concerts all over the world.</li>
+        </ul>
+    </section>
 
-<section id="skills">
-    <h2>Musical/Acting Skills</h2>
-    <ul>
-        <li>Vocals: Professional singing and music performance</li>
-        <li>Acting: Experienced in television and film roles</li>
-        <li>Songwriting: Writing original music and lyrics</li>
-        <li>Live Performances: International tours and concerts</li>
-        <li>Public Speaking: Charismatic and engaging speaker</li>
-        <li>Brand Endorsements: Strong personal brand partnerships</li>
-    </ul>
-</section>
-<section>
-<h2> Technical Skills</h2>
-<ul>
-    <li>Voice Control &amp; projection</li>
-    <li>Emotion &amp; Expression</li>
-    <li>Character Development</li>
-    <li>Timing &amp; pacing</li>
-    <li>Stage Presence &amp; Performance</li>
-    <li> Collaboration &amp; Teamwork</li>
+    <section id="portfolio">
+        <h2>Work &amp; Portfolio</h2>
+        <ul class="dm-serif-display-regular">
+            <li>To view my music soundtrack <a href="https://www.youtube.com/playlist?list=PLv7cJkqEsmHEZ1NBQHflWwh4WwLFxgCxD" target="_blank">click here</a></li>
+            <li>To view my acting performances <a href="https://disneynow.com/show/87a723a4-7f8d-4260-b782-c943c3f7b510" target="_blank">click here</a> for exclusive videos and performances.</li>
+        </ul>
+    </section>
 
-    </ul>
-</section>
+    <section id="skills">
+        <h2>Musical/Acting Skills</h2>
+        <ul class="dm-serif-display-regular">
+            <li>Vocals: Professional singing and music performance</li>
+            <li>Acting: Experienced in television and film roles</li>
+            <li>Songwriting: Writing original music and lyrics</li>
+            <li>Performances: International tours and concerts</li>
+            <li>Public Speaking: Charismatic and engaging speaker</li>
+            <li>Brand Endorsements: Strong personal brand partnerships</li>
+        </ul>
+    </section>
+
+    <section id="technical-skills">
+        <h2>Technical Skills</h2>
+        <ul class="dm-serif-display-regular">
+            <li>Voice Control &amp; projection</li>
+            <li>Emotion &amp; Expression</li>
+            <li>Character Development</li>
+            <li>Timing &amp; pacing</li>
+            <li>Stage Presence &amp; Performance</li>
+            <li>Collaboration &amp; Teamwork</li>
+        </ul>
+    </section>
+</body>
+</html>
+
